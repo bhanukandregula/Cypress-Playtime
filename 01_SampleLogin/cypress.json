@@ -1,1 +1,4 @@
-{}
+{
+    "watchForFileChnages" : false,
+    "defaultCommandTimeout" : 5000
+}
