@@ -1,0 +1,16 @@
+{
+  "name": "04_pageobjectmodel",
+  "version": "1.0.0",
+  "description": "Note: we should keep the objects and methods seperate from the test script. This will helps us for reuseability.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.6.0",
+    "typescript": "^4.8.3"
+  }
+}

@@ -1,0 +1,1 @@
+Note: we should keep the objects and methods seperate from the test script. This will helps us for reuseability.
