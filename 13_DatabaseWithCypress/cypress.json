@@ -1,0 +1,10 @@
+{
+  "env": {
+    "db": {
+      "host": "sql5.freesqldatabase.com",
+      "user": "sql5521376",
+      "password": "sHMRyQ86MG",
+      "database": "sql5521376"
+    }
+  }
+}

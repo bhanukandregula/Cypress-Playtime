@@ -1,0 +1,18 @@
+pipeline {
+  agent any
+  
+  tools {nodejs "18.9.0"}
+  
+  stages {  
+    stage('set_ws') {
+      steps {
+        sh 'pwd'
+        ws('/Users/bhanuprakashkandregula/Documents/learn-explore/explore-code-habits/005_Cypress-Learning-Hub/02_CypressWithTypescript') {
+            sh 'pwd'
+            sh 'npm install'
+            sh 'npm test'
+        }
+      }
+    }
+    }
+}
