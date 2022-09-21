@@ -1,0 +1,16 @@
+{
+  "name": "10_cypressdashboard",
+  "version": "1.0.0",
+  "description": "1. Cypress Test Runner 2.  Cypress Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --record --key dcc14b2e-ceb0-496c-86b5-3fc13a31c7d3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.6.0",
+    "typescript": "^4.8.3"
+  }
+}
